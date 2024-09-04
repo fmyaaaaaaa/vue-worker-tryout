@@ -1,5 +1,17 @@
-# Vue 3 + TypeScript + Vite
+# Vue Worker tryout
+This repository is for worker tryout. Vite + vue3 is this project base.
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## How to run
+```shell
+npm run dev
+```
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## Application UI
+![UI_SAMPLE](./public/ui_sample.png)
+
+## How to use
+In a left side or screen, there are some configurations to run this sample application.
+Default values has been filled in already so please click "Start" button simply.
+
+Then, the result will be applied to the right side of screen.
+Worker thread continue to generate messages and you can access message objects whenever you like.
